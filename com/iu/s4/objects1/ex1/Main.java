@@ -6,7 +6,7 @@ public class Main {
 		MenuController menuController = new MenuController();
 		
 		menuController.start();
-		
+		System.out.println("집에서 추가");
 	}
 
 }
