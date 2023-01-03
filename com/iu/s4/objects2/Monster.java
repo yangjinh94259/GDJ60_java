@@ -7,7 +7,15 @@ public class Monster {
 	//멤버변수, instance 변수
 	String name;
 	int power = 10;		//Heap에 만들어진 영역
-	int hp = 100;
+	int hp;
+	
+	//생성자 Constructor
+	public Monster() {
+		//메개변수가 없는 생성자를 기본생성자, default Constructor
+		this.power = 50;
+		this.hp = 60;
+		System.out.println("생성자 실행");
+	}
 	
 	public boolean checkValue(Monster monster) {
 		//나의 power와 같고, 나의 hp가 같다면 true 리턴, false 리턴
