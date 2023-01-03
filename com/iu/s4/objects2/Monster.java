@@ -17,6 +17,10 @@ public class Monster {
 		System.out.println("생성자 실행");
 	}
 	
+//	public Monster(int power) {
+//		
+//	}
+	
 	public boolean checkValue(Monster monster) {
 		//나의 power와 같고, 나의 hp가 같다면 true 리턴, false 리턴
 		
