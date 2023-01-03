@@ -6,8 +6,8 @@ public class Monster {
 	
 	//멤버변수, instance 변수
 	String name;
-	int power;		//Heap에 만들어진 영역
-	int hp;
+	int power = 10;		//Heap에 만들어진 영역
+	int hp = 100;
 	
 	public boolean checkValue(Monster monster) {
 		//나의 power와 같고, 나의 hp가 같다면 true 리턴, false 리턴
