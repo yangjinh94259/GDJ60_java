@@ -12,7 +12,7 @@ public class StudentView {
 		}
 		
 	}
-	
+	//
 	//viewOne
 	//학생 한명을 받아서 학생의 모든 정보를 출력
 	public void view(Student student) {
