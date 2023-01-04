@@ -4,13 +4,19 @@ public class God {
 
 	private String name;
 	
+	private static God god;
+	
 	private God() {
 		
 	}
 	
-	public  static God makeGod() {
-		God god = new God();
-		return god; //new God();
+	public  static God getInstance() {
+		
+		if(God.god == null) {
+			God.god = new God();
+		}
+			
+		return God.god; //new God();
 	}
 
 	public String getName() {
