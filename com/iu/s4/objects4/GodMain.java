@@ -13,7 +13,7 @@ public class GodMain {
 		System.out.println("Name : " + god.getName());
 		
 		god = God.getInstance();
-		
+	
 		System.out.println("God : " + god);
 		System.out.println("Name : " + god.getName());
 		
