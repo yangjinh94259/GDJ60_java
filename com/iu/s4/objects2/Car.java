@@ -2,7 +2,7 @@ package com.iu.s4.objects2;
 
 public class Car {
 
-	String company = "BMW";
+	static String company = "BMW";	
 	String name;
 	int price;
 	String color;
