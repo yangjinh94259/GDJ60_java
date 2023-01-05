@@ -11,8 +11,10 @@ public class Main {
 		robot.setArmLeft(armLeft);
 		
 		
-		System.out.println(robot.getArmLeft());
-		System.out.println("Right : " + robot.getArmRight());
+		System.out.println("ArmLeft : " + robot.getArmLeft());
+		System.out.println("ArmRight : " + robot.getArmRight());
+		
+		robot = null;	//객체를 소멸시키는 과정
 		
 		System.out.println("프로그램 종료");
 	}
