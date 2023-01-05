@@ -16,6 +16,11 @@ public class Main {
 		
 		robot = null;	//객체를 소멸시키는 과정
 		
+		System.out.println("AddRobot에서 작성");
+		
+		robot = new Robot();
+		
+		System.out.println(robot);
 		System.out.println("프로그램 종료");
 	}
 
